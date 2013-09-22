@@ -1,3 +1,10 @@
-    name: PrivateFurnace
-    main: io.github.fokolo.PrivateFurnace
-    version: 0.1
+ name: PrivateInventory
+ version: 0.1
+ author: fokolo 
+ main: io.github.fokolo.PrivateFurnace
+ 
+ commands:
+   privateinventory:
+     description: private inventory root command.
+     aliases: [pi, pinventory]
+     usage: error! type /pi help.
